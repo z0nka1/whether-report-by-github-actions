@@ -2,8 +2,6 @@ name: 'Github Actions Weather Bot'
 
 on:
   push:
-  schedule:
-    - cron: '30 0 * * *'
 
 jobs:
   get-weather-report-and-send-mail:
